@@ -1,5 +1,9 @@
 # purescript-st
 
+Java port of the PureScript `st` package. See the
+[port maintenance guide](../javapurs/docs/port-maintenance.md)
+for source layout, local dependency selection and JVM validation.
+
 ## JVM tests
 
 `./bin/test` selects `st` in the [common isolated runner](../javapurs/docs/testing.md#port-particulier), preserving this checkout and its outputs.
